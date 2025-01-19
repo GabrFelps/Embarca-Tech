@@ -448,3 +448,6 @@ static const uGRB32_t colors_warm[8]=    {GRB_RED, GRB_ORANGE, GRB_YELLOW};
 
 #endif
 
+void invert_matrix_vertical(uint8_t* matrix, int rows, int cols);
+void invert_matrix_horizontal_even_rows(uint8_t* matrix, int rows, int cols);
+void fixingBitDogLab(uint8_t* matrix, int rows, int cols);
